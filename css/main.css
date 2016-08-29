@@ -132,8 +132,8 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
 }
 #page-contact {
-    padding: 75px 0;
-    background: url(../img/overlays/parallax-section-background-04.jpg)!important;
+    background: url(../img/overlays/022.jpg)100% 100% no-repeat!important;
+    background-size: cover;
 }
 #page-contact .contact-info p {
     font-size: 1.2em;
