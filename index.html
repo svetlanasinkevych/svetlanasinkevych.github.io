@@ -72,43 +72,6 @@
               </div>
             </div>
           </div> <!-- .home-content -->
-
-          <!--<footer class="home-footer">
-            <div class="container home-container">
-              <div class="row">
-                <div class="col-xs-12">
-                  <div id="countdown" class="countdown animate" data-animate="slideUpIn" data-animate-delay="450">
-                    <h3 class="countdown-title">Remaining time...</h3>
-                    <div class="dash days_dash">
-                      <div class="digit">0</div>
-                      <div class="digit">0</div>
-                      <div class="digit">0</div>
-                      <span class="dash_title">d</span>
-                    </div>
-
-                    <div class="dash hours_dash">
-                      <div class="digit">0</div>
-                      <div class="digit">0</div>
-                      <span class="dash_title">h</span>
-                    </div>
-
-                    <div class="dash minutes_dash">
-                      <div class="digit">0</div>
-                      <div class="digit">0</div>
-                      <span class="dash_title">m</span>
-                    </div>
-
-                    <div class="dash seconds_dash">
-                      <div class="digit">0</div>
-                      <div class="digit">0</div>
-                      <span class="dash_title">s</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </footer>-->
-
           <div id="subscribe" class="subscribe white-popup mfp-hide">
             <div class="card">
               <div class="card-bottom">
@@ -350,6 +313,21 @@ My main specialization is front-end development, thus my key skills HTML, CSS an
                         </div>
                       </div> <!-- .card-->
                     </div>
+                    <div class="col-sm-6">
+                      <div class="card">
+                        <div class="card-bottom">
+                          <div class="card-media" data-src="assets/img/portfolio/sky.png"> <!-- popup media -->
+                            <div class="card-media-zoom-cover"><i class="fa fa-search-plus"></i></div>
+                            <img src="assets/img/portfolio/sky.png" alt=""> <!-- preview img -->
+                          </div>
+                          <div class="card-block">
+                            <h4 class="card-block-title"><a href="http://www.skyrestore.com/" target="_blank">skyrestore</a></h4>
+                            <p>responsive crossbrowser layout + WordPress theme development</p>
+                          </div>
+                        </div>
+                      </div> <!-- .card-->
+                    </div>
+                    <div class="clearfix"></div>
                   </div>
                 </div> <!-- .section-content -->
               </div>
@@ -367,24 +345,6 @@ My main specialization is front-end development, thus my key skills HTML, CSS an
                 <hr>
                 <div class="section-content">
                   <div class="row">
-                    <!--<div class="col-sm-7">
-                      <form class="form-default" id="contactForm" novalidate="novalidate">
-                        <div class="form-group required bg-light">
-                          <label class="form-label" for="contactName">Your name</label>
-                          <input class="form-control" id="contactName" type="text" name="name">
-                        </div>
-                        <div class="form-group required bg-light">
-                          <label class="form-label" for="contactEmail">Email address</label>
-                          <input class="form-control" id="contactEmail" type="text" name="email">
-                        </div>
-                        <div class="form-group required bg-light">
-                          <label class="form-label" for="contactMessage">Message</label>
-                          <textarea class="form-control" id="contactMessage" rows="4" name="message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
-                        <div class="form-notify"></div>
-                      </form>
-                    </div>-->
                     <div class="col-md-6 col-md-offset-3">
                       <div class="well">
                         <div class="media">
@@ -426,21 +386,6 @@ My main specialization is front-end development, thus my key skills HTML, CSS an
             </div>
           </div>
         </div> <!-- .contact -->
-
-        <!--<footer id="siteFooter" class="site-footer section">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12">
-                <ul class="site-footer-social-list">
-                  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-fw fa-facebook-square"></i></a></li>
-                  <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-fw fa-twitter-square"></i></a></li>
-                  <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i></a></li>
-                  <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-fw fa-pinterest-square"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>-->
       </div> <!-- .section-wrap -->
     </div> <!-- #info -->
   </main> <!-- .site-main -->
@@ -464,6 +409,13 @@ My main specialization is front-end development, thus my key skills HTML, CSS an
   </script>
   -->
   <!-- /script -->
+  <script>
+    (function($){
+        $(window).on("load",function(){
+            $(".scroll-y").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
 
 </body>
 </html>
